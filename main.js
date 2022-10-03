@@ -2,6 +2,6 @@
 // Strcit Mode in JavaScript:
 "use strict"
 function myName (){
-    name = "Tushar";
+    let name = "Tushar";
 }
 myName();   
