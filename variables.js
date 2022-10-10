@@ -12,7 +12,7 @@
 
 // Variable Scope: Global Scope, Local Scope, Block Scope, Function Scope
    
-function myFun(){
+/* function myFun(){
     var name = "Tushar";
     console.log(name);
 }
@@ -21,7 +21,7 @@ function myFun(){
  address = "Kathmandu";
     console.log(address);
 var address;
-
+ */
 
 
 
@@ -44,3 +44,20 @@ var address;
         // If statement variable can be accessed only in the if statement.
         // If statement variable can be accessed only by the if statement.
     // If Else Statement Scope:
+
+
+    var name = "Tushar";
+    var name = "Gaus";
+    console.log(name);
+    let name2 = "Al Munir"; // declared using let keyword
+    name2 = "Tushar"; // reassigned using let keyword
+    console.log(name2);
+    const name3 = "Gaus"; // declared using const keyword
+    name3 = 'tushar';  // Redeclaration and reassigned not possible
+    console.log(name3);
+
+
+// Variable Scope
+
+
+// Variable Hoisting

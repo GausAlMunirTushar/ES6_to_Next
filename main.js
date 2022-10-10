@@ -4,4 +4,9 @@
 function myName (){
     let name = "Tushar";
 }
-myName();   
+myName();  
+
+// Variable Hoisting:
+name = "Gaus";
+console.log(name);
+var name;
